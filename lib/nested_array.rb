@@ -31,7 +31,7 @@ matrix_loop = matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix[row][column][index] << new_value
+  matrix[row][column][] << new_value
 
 matrix
   # Given any matrix (array of arrays), a row index and a column index, 
